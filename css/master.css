@@ -1,0 +1,18 @@
+#menu {
+  display: flow-root;
+}
+#menu a {
+  margin-right: 5px;
+  padding: 10px;
+  font: 20px Times;
+  text-decoration: none;
+  color: white;
+border: 1px solid green;
+background-color: green;
+}
+
+#menu a:hover, #menu a.active {
+  color: green;
+  border: 1px solid green;
+  background-color: white;
+}
